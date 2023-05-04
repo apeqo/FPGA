@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, D:/FPGA/FPGA/led/sim/tb_led.v
+source_file = 1, D:/FPGA/FPGA/led/rtl/led.v
+source_file = 1, D:/FPGA/FPGA/led/quartus_prj/db/led.cbx.xml
+design_name = led
+instance = comp, \led_out~output , led_out~output, led, 1
+instance = comp, \key_in~input , key_in~input, led, 1
